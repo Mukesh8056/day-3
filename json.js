@@ -28,3 +28,6 @@ jsonData ={                     //for in loop
 for (var i=0; i < numbers.length; i++) {
    console.log(numbers[i])
 }
+                                          //for each 
+
+numbers.forEach((element)=>console.log(element*2))
